@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+    height: 100px;
+    color: whitesmoke;
+    background-color: rgb(29, 29, 29)
+}
+
+.profile {
+    margin-left: 100px;
+}
+
+.signout {
+    margin-right: 100px;
+}
+
+.links {
+    display: flex;
+    margin-right: 720px;
+}
+
+.home:hover {
+    text-decoration: underline salmon;
+}
+
+.find:hover {
+    text-decoration:underline salmon;
+}
+
+a {
+    text-decoration: none;
+    margin: 20px;
+    color: whitesmoke;
+    margin-left: 10px;
+    font-size: 11pt;
+    font-weight:lighter;
+}
+
+span {
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+span:hover {
+    text-decoration: underline salmon;
+}
+
+h1 {
+    font-weight:normal;
+    color:whitesmoke;
+}
+
+button {
+    background-color: whitesmoke;
+    color: rgb(29, 29, 29);
+    font-weight:600;
+    border: 1px solid whitesmoke;
+    box-shadow: 3px 2px 2px 2px black;
+    height: 25px;
+    width: 90px;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    height: 1000px;
+}
+
+.col1 {
+    width: 50%;
+    height: 90%;
+    flex-direction: column;
+}
+
+.usercard {
+    width: 85%;
+    height: 40%;
+    border: 1px solid rgb(29, 29, 29);
+    margin-left: 100px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+}
+
+h2 {
+    width: 99.8%;
+    height: 100px;
+    background-color: salmon;
+    border: 1px solid rgb(29, 29, 29);
+}
+
+h3 {
+    margin-top: 70px;
+    margin-left: 30px;
+    font-size: 20pt;
+    font-weight: normal;
+    color:rgb(29, 29, 29);
+}
+
+h4 {
+    margin-left: 55px;
+    font-weight: 400;
+    font-size: 11pt;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color:rgb(29, 29, 29);
+}
+
+p {
+    font-size: 10pt;
+    margin-left: 80px;
+    color:rgb(29, 29, 29);
+    font-size: 10pt;
+    font-weight: 300;
+}
+
+.circle {
+    height: 125px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 35px;
+}
+
+.slash {
+    text-align:end;
+    margin-top: 20px;
+    margin-right: 40px;
+    font-size: 30pt;
+    font-weight:100;
+    letter-spacing: 4px;
+    color:rgb(29, 29, 29);
+}
+
+.slashspan {
+    font-weight:100;
+}
+
+#carrot {
+    color: salmon;
+    font-size: 30pt;
+    font-weight:100;
+    position: absolute;
+    left: 150px;
+    top: 380px;
+}
+
+#carrot:hover {
+    text-decoration:none;
+}
+
+#pin {
+    height: 17px;
+    position: absolute;
+    bottom: 882px;
+    margin-left: 33px;
+}
+
+.prof {
+    color:rgb(29, 29, 29);
+    text-align:end;
+    font-size: 10pt;
+    text-decoration: underline salmon;
+    right: 1230px;
+    position: absolute;
+    margin-top: 35px;
+}
+
+.cog {
+    height: 15px;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+h5 {
+    width: 99.8%;
+    height: 50px;
+    background-color: salmon;
+    border: 1px solid rgb(29, 29, 29);
+}
+
+.education {
+    width: 85%;
+    height: 22%;
+    border: 1px solid rgb(29, 29, 29);
+    margin-left: 100px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+}
+
+h6 {
+    font-size: 12pt;
+    position: absolute;
+    margin-left: 15px;
+    top: 520px;
+    font-weight: 300;
+    color: whitesmoke;
+    text-decoration: underline 1pt rgb(29, 29, 29);
+    text-underline-offset: 3px;
+}
+
+img {
+    height: 20px;
+}
+
+.icons img {
+    margin: 5px;
+}
+
+.icons {
+    position: absolute;
+    left: 350px;
+    top: 650px;
+}
+
+.bootcamp {
+    margin-top: 25px;
+    letter-spacing: 1px;
+    padding: 4px;
+    word-spacing: 2px;
+    font-size: 10pt;
+    margin-left: 30px;
+}
+
+.when {
+    letter-spacing: 1px;
+    padding: 4px;
+    word-spacing: 2px;
+    font-size: 10pt;
+    margin-left: 30px;
+}
+
+li {
+    padding-left: 1em; 
+    text-indent: -.7em;
+    list-style:none;
+}
+
+li::before {
+    content: "•";
+    padding-right:7px;
+    font-size: 15pt;
+    color: salmon
+}
+
+.col2 {
+    width: 40%;
+    height: 90%;
+    flex-direction: column;
+    margin-left: 750px;
+}
+
+.requests {
+    width: 20%;
+    height: 55px;
+    background-color: salmon;
+    border: 1px solid rgb(29, 29, 29);
+    position: absolute;
+    top: 120px;
+}
+
+.conreq {
+    font-size: 12pt;
+    position: absolute;
+    top: 137px;
+    font-weight: 300;
+    color: whitesmoke;
+    text-decoration: underline 1pt rgb(29, 29, 29);
+    text-underline-offset: 3px;
+    left: 820px;
+}
+
+.addme {
+    height: 30px;
+    position: absolute;
+    top: 135px;
+    right: 650px;
+}
+
+.req {
+    width: 293px;
+    height: 170px;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 177px;
+    margin-left: 15px;
+    border: 1px solid rgb(29, 29, 29);
+}
+
+.cesare_frances {
+    position: relative;
+    left: 40px;
+    top: 40px;
+    letter-spacing: 1px;
+    text-decoration:underline salmon;
+    text-underline-offset: 3px;
+}
+
+.frances {
+    position: relative;
+    left: 0px;
+    top: 60px;
+    letter-spacing: 1px;
+    text-decoration:underline salmon;
+    text-underline-offset: 3px;
+}
+
+#cesare {
+    height: 60px;
+    position: absolute;
+    top: -30px;
+}
+
+#frances {
+    height: 60px;
+    position: absolute;
+    top: 50px;
+}
+
+.yes {
+    position: absolute;
+    right: 100px;
+    bottom: 13px;
+    left: 150px;
+    height: 20px;
+}
+
+.no {
+    position: absolute;
+    height: 20px;
+    right: 90px;
+    bottom: 12px;
+}
+
+.yes2 {
+    position: absolute;
+    height: 20px;
+    left: 150px;
+    top: 75px;
+}
+
+.no2 {
+    position: absolute;
+    height: 20px;
+    right: 123px;
+    top: 75px;
+    left: 183px;
+}
+
+.connect {
+    width: 20%;
+    height: 55px;
+    background-color: salmon;
+    border: 1px solid rgb(29, 29, 29);
+    position: absolute;
+    top: 120px;
+    right: 404px;
+    top: 365px;
+}
+
+#con {
+    position: absolute;
+    top: 18px;
+    right: 110px;
+}
+
+.cons {
+    position: absolute;
+    height: 30px;
+    left: -75px;
+    bottom: -6px;
+}
+
+.icons2 {
+    width: 293px;
+    height: 278px;
+    background-color: whitesmoke;
+    border: 1px solid rgb(29, 29, 29);
+    position: absolute;
+    top: 120px;
+    top: 56px;
+    left: -1px;
+}
+
+.icons2 img {
+    height: 50px;
+}
+
+.steve {
+    position: absolute;
+    right: 200px;
+    top: 15px;
+}
+
+.penny {
+    position: absolute;
+    right: 200px;
+    top: 75px;
+}
+
+.billie {
+    position: absolute;
+    right: 200px;
+    top: 145px;
+}
+
+.tim {
+    position: absolute;
+    right: 200px;
+    top: 215px;
+}
+
+#steve {
+    position: absolute;
+    right: 150px;
+    top: 35px;
+    text-decoration:underline salmon;
+    text-underline-offset: 3px;
+}
+
+#penny {
+    position: absolute;
+    right: 146px;
+    top: 95px;
+    text-decoration:underline salmon;
+    text-underline-offset: 3px;
+}
+
+#billie {
+    position: absolute;
+    right: 156px;
+    top: 165px;
+    text-decoration:underline salmon;
+    text-underline-offset: 3px;
+}
+
+#tim {
+    position: absolute;
+    right: 163px;
+    top: 235px;
+    text-decoration:underline salmon;
+    text-underline-offset: 3px;
+}
